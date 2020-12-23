@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+Build by weebs for weebs, I specialize in managing [@ExploreMoviez](https://t.me/exploremoviez).
 You can find my list of available commands with /help.
 """
 
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/103/thumb-1920-1031089.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/57d94fd5cb13074a57dee.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -204,8 +204,8 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             text=" 🍿Movies Group ",
+                             url="https://t.me/exploremoviez")
                      ],
                      [
                         InlineKeyboardButton(
@@ -213,13 +213,13 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/SenkuRobot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                             url="https://t.me/exploremoviez")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
+                             text=" Developer 👨‍💻",
+                             url="https://t.me/mrvasuz")
                     
                     ]]))
     else:

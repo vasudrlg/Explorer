@@ -2,7 +2,6 @@ import logging
 import os
 import sys
 import time
-import spamwatch
 
 #adding approval module
 from redis import StrictRedis

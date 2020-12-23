@@ -212,8 +212,8 @@ def start(update: Update, context: CallbackContext):
                             text=" ✨ Help ",
                             url="https://t.me/SenkuRobot?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/exploremoviez")        
+                            text=" Source Code ",
+                             url="https://github.com/vasudrlg/Explorer")        
                        
                      ],
                      [
